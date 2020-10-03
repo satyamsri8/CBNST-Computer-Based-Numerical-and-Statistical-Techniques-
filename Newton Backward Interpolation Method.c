@@ -16,7 +16,7 @@ int main()
     FILE *fp;
     fp=fopen("NBIM.txt","r");
     //printf("Enter number of terms to enter: ");
-    fscanf(fp,"%d",&n);
+    fscanf(fp,"%d ",&n);
     float X[n],Y[n];
     for(i=0;i<n;i++)
     {
